@@ -342,7 +342,11 @@ function PlasmicDiscourseGraphsNew__RenderFunc(props: {
                     displayMaxWidth={"100%"}
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
-                    displayWidth={"530px"}
+                    displayWidth={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "auto"
+                        : "auto"
+                    }
                     loading={"lazy"}
                     src={{
                       src: "/plasmic/discourse_graphs/images/dgraphExampleBans1Png.png",
@@ -489,36 +493,21 @@ function PlasmicDiscourseGraphsNew__RenderFunc(props: {
                 />
               </div>
             </Stack__>
-            <div className={classNames(projectcss.all, sty.freeBox__rAyvs)}>
-              <div className={classNames(projectcss.all, sty.freeBox__mgOem)}>
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___0G1HS)}
-                >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__wDfb3)}
-                    displayHeight={"200px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"auto"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/discourse_graphs/images/screenshot20241110At62800PmPng.png",
-                      fullWidth: 2056,
-                      fullHeight: 874,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.freeBox__bHa)}>
+            <Stack__
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__t1NAy)}
+            >
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__eGjjH)}
+              >
                 <div
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__ubIdZ
+                    sty.text__qtLh
                   )}
                 >
                   <React.Fragment>
@@ -534,7 +523,7 @@ function PlasmicDiscourseGraphsNew__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__djS
+                    sty.text___8AUtc
                   )}
                 >
                   <React.Fragment>
@@ -562,8 +551,27 @@ function PlasmicDiscourseGraphsNew__RenderFunc(props: {
                     </span>
                   </React.Fragment>
                 </div>
+              </Stack__>
+              <div className={classNames(projectcss.all, sty.freeBox__mYDz)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__iMuBo)}
+                  displayHeight={"233px"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"100%"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/discourse_graphs/images/screenshot20241110At62800PmPng.png",
+                    fullWidth: 2056,
+                    fullHeight: 874,
+                    aspectRatio: undefined
+                  }}
+                />
               </div>
-            </div>
+            </Stack__>
             <Stack__
               as={"div"}
               hasGap={true}
