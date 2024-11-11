@@ -1,0 +1,129 @@
+{
+  "props": [
+    {
+      "name": "Black",
+      "type": "color",
+      "value": "#000000",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "WjtAqfnaruMBtP"
+      }
+    },
+    {
+      "name": "DG Black",
+      "type": "color",
+      "value": "#1F1F1F",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "ElsWQjvcx"
+      }
+    },
+    {
+      "name": "DG Blue-Purple",
+      "type": "color",
+      "value": "#5F57C0",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "NFSfQfEfW"
+      }
+    },
+    {
+      "name": "DG Orange",
+      "type": "color",
+      "value": "#FF8B46",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "MwpQlpeDq"
+      }
+    },
+    {
+      "name": "DG White",
+      "type": "color",
+      "value": "#F1F1F1",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "KfXTTqKtS"
+      }
+    },
+    {
+      "name": "Header",
+      "type": "fontsize",
+      "value": "90px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "0F9SVxPzX"
+      }
+    },
+    {
+      "name": "NG Dark Gray",
+      "type": "color",
+      "value": "#71797E",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "P_m3rLqs9chprC"
+      }
+    },
+    {
+      "name": "NR Dark Purple",
+      "type": "color",
+      "value": "#540180",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "R2BTfMOkE"
+      }
+    },
+    {
+      "name": "NR Purple",
+      "type": "color",
+      "value": "#A801FF",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "Vv31LB4Vu"
+      }
+    },
+    {
+      "name": "NR Thistle",
+      "type": "color",
+      "value": "#EECCFF",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "OjggPq2-9"
+      }
+    },
+    {
+      "name": "Unnamed Style Token",
+      "type": "color",
+      "value": "#FF8B46BF",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "onBZVNRt3"
+      }
+    },
+    {
+      "name": "White",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "87RqUXPRhfuJ9yTiA95WNo",
+        "id": "SafGcHwH8VebZy"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
